@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.black,
         body: Center(
-          child: Text('Hello\n\n\n\n\n\nDart\n\n\n\n\n\nFlutter',
+          child: Text('Hello\n\n\n\n\nDart\n\n\n\n\nFlutter',
           style : TextStyle(
             fontSize: 35,
             fontWeight: FontWeight.bold,
