@@ -1,4 +1,4 @@
-<h1 align="center"> 🔸 Image Of This Project 🔸 </h1>
+<h1 align="center"> 🔸 Anatomy of Flutter App 🔸 </h1>
 
 ###
 
