@@ -1,16 +1,49 @@
-# anatomy_flutter
+<h1 align="center"> 🔸 Anatomy of Flutter App 🔸 </h1>
 
-A new Flutter project.
+<h3 align="center"> 1.First Task </h3>
 
-## Getting Started
+###
 
-This project is a starting point for a Flutter application.
+<h1 align="left"> </h1>
 
-A few resources to get you started if this is your first Flutter project:
+###
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+<div align="center">
+<img height="550" src="https://github.com/AnkitUmredkar/anatomy_flutter/assets/149374001/94d6667b-e431-4d04-950c-8482c9d0c1e0"  />
+</div>
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+###
+
+<div align="center">
+<a href="https://github.com/AnkitUmredkar/anatomy_flutter/blob/main/lib/main.dart">-> 📂 Go To Dart File 📂 <-</a>
+</div>
+
+###
+
+<h1 align="left"> </h1>
+
+###
+
+<h3 align="center"> 2.Second Task </h3>
+
+###
+
+<h1 align="left"> </h1>
+
+###
+
+<div align="center">
+<img height="550" src="https://github.com/AnkitUmredkar/anatomy_flutter_2/assets/149374001/3f08eda3-a05f-401b-8c2e-27afca8c19a2"  />
+</div>
+
+###
+
+<div align="center">
+<a href="https://github.com/AnkitUmredkar/anatomy_flutter_2/blob/master/lib/main.dart">-> 📂 Go To Dart File 📂 <-</a>
+</div>
+
+###
+
+<h1 align="left"> </h1>
+
+###
