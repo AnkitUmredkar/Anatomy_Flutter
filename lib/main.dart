@@ -1,6 +1,3 @@
-import 'dart:ui';
-
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,29 +9,118 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        appBar:  AppBar(
-          leading: const Icon(Icons.menu,color: Colors.white,),
-          centerTitle: true,
-          title: const Text(
-            'Flutter App',
-            style: TextStyle(color: Colors.white),
-          ),
-          backgroundColor: Colors.red,
-        ),
-        body: const Center(
-          child: Text(
-            '      Red & White Group Of Institutes\nOne Step in Changing Education Chain...',
-            style: TextStyle(
-              color: Colors.red,
-              fontSize: 16,
-              fontWeight: FontWeight.w500,
+      // title: 'Flutter Demo',
+      // theme: ThemeData(
+      //
+      //   colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+      //   useMaterial3: true,
+      // ),
+      home: const MyHomePage(title: 'Hello,This is My First Project..'),
+    );
+  }
+}
+
+class MyHomePage extends StatefulWidget {
+  const MyHomePage({super.key, required this.title});
+
+  final String title;
+
+  @override
+  State<MyHomePage> createState() => _MyHomePageState();
+}
+
+class _MyHomePageState extends State<MyHomePage> {
+  int _counter = 0;
+
+  void _incrementCounter() {
+    setState(() {
+
+      _counter=  _counter + 10;
+
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+
+    return Scaffold(
+      backgroundColor: Colors.black,
+      body: Center(
+        child: Stack(
+          children: [
+            Align(
+              alignment: Alignment.topCenter,
+              child: Padding(
+                  padding : const EdgeInsets.only(top: 100.0),
+                  child : Text(
+                      'Hello',
+                      style : TextStyle(
+                        fontSize: 35,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.red,
+                        decoration: TextDecoration.underline,
+                        decorationColor: Colors.amberAccent,
+                        letterSpacing: 1.2,
+                      )
+                  )
+              ),
             ),
-          ),
+
+            Align(
+              alignment: Alignment.center,
+              child: Text(
+                'Dart',
+                style : TextStyle(
+                  fontSize: 35,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.red,
+                  decoration: TextDecoration.underline,
+                  decorationColor: Colors.amberAccent,
+                  letterSpacing: 1.2,
+                ),
+              ),
+            ),
+
+            Align(
+              alignment: Alignment.bottomCenter,
+              child: Padding(
+                  padding : const EdgeInsets.only(bottom: 100.0),
+                  child : Text(
+                      'Flutter',
+                      style : TextStyle(
+                        fontSize: 35,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.red,
+                        decoration: TextDecoration.underline,
+                        decorationColor: Colors.amberAccent,
+                        letterSpacing: 1.2,
+                      )
+                  )
+              ),
+            ),
+          ],
         ),
       ),
+
+      // child: Column(
+      //   mainAxisAlignment: MainAxisAlignment.center,
+      // children: <Widget>[
+      // const Text(
+      //   'You have pushed the button this many times:',
+      // ),
+      // Text(
+      //   '$_counter',
+      //   style: Theme.of(context).textTheme.headlineMedium,
+      // ),
+      // ],
+      // ),
+      // ),
+      // floatingActionButton: FloatingActionButton(
+      //   onPressed: _incrementCounter,
+      //   tooltip: 'Increment',
+      //   child: const Icon(Icons.add),
     );
   }
 }
