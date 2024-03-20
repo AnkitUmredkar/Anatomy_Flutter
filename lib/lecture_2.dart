@@ -1,6 +1,3 @@
-import 'dart:ui';
-
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -40,7 +37,7 @@ class MyApp extends StatelessWidget {
         body:  const Center(
 
           child: Text(
-            '      Red & White Group Of Institutes \nOneStep in Changing Education chain....',
+            '      Red & White Group Of Institutes \n OneStep in Changing Education chain....',
             style: TextStyle(
               fontSize: 20,
               color: Colors.red,
