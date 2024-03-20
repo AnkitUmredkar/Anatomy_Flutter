@@ -13,10 +13,16 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgroundColor : Colors.black,
+        backgroundColor: Colors.black,
         body: Center(
-          child: Text('Hello\n\n\n\n\n\nDart\n\n\n\n\n\nFlutter',
-            style: TextStyle(fontSize: 34,color: Colors.red,decoration: TextDecoration.underline,decorationColor: Colors.yellow,fontWeight: FontWeight.bold),
+          child: Text(
+            'Hello\n\n\n\n\n\nDart\n\n\n\n\n\nFlutter',
+            style: TextStyle(
+                fontSize: 34,
+                color: Colors.red,
+                decoration: TextDecoration.underline,
+                decorationColor: Colors.yellow,
+                fontWeight: FontWeight.bold),
           ),
         ),
       ),
