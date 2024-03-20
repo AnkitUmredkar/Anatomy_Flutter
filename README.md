@@ -39,7 +39,7 @@
 ###
 
 <div align="center">
-<a href="https://github.com/AnkitUmredkar/anatomy_flutter_2/blob/master/lib/main.dart">-> 📂 Go To Dart File 📂 <-</a>
+<a href="https://github.com/AnkitUmredkar/anatomy_flutter/blob/main/lib/lecture_2.dart">-> 📂 Go To Dart File 📂 <-</a>
 </div>
 
 ###
