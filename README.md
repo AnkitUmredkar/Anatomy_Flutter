@@ -77,7 +77,7 @@
 
 ###
 <div align="center">
-<a href="https://github.com/AnkitUmredkar/anatomy_flutter_3/blob/master/lib/red_%26_white_logo.dart">-> 📂 Go To Dart File 📂 <-</a>
+<a href="https://github.com/AnkitUmredkar/anatomy_flutter/blob/main/lib/lecture_3.2.dart">-> 📂 Go To Dart File 📂 <-</a>
 </div>
   
 ###
