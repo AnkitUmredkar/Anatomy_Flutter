@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
           centerTitle: true,
           title: const Text(
             'Flutter App',
-            style: TextStyle(color: Colors.white,fontSize: 25),
+            style: TextStyle(color: Colors.white, fontSize: 25),
           ),
           actions: const [
             Padding(
@@ -34,14 +34,13 @@ class MyApp extends StatelessWidget {
           ],
           backgroundColor: Colors.redAccent,
         ),
-        body:  const Center(
-
+        body: const Center(
           child: Text(
             '      Red & White Group Of Institutes \n OneStep in Changing Education chain....',
             style: TextStyle(
               fontSize: 21,
               color: Colors.red,
-              fontWeight : FontWeight.w500,
+              fontWeight: FontWeight.w500,
             ),
           ),
         ),
