@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
           title: const Text('My RNW',
               style: TextStyle(
                   fontWeight: FontWeight.w500,
-                  fontSize: 24,
+                  fontSize: 25,
                   color: Colors.white)),
           centerTitle: true,
         ),
@@ -34,7 +34,7 @@ class MyApp extends StatelessWidget {
                   text: 'Red & White',
                   style: TextStyle(
                     color: Colors.red,
-                    fontSize: 60,
+                    fontSize: 62,
                     fontWeight: FontWeight.bold,
                     decoration: TextDecoration.underline,
                     decorationColor: Colors.redAccent,

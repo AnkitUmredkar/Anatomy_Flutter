@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
           child: Text(
             'Hello\n\n\n\n\n\nDart\n\n\n\n\n\nFlutter',
             style: TextStyle(
-                fontSize: 35,
+                fontSize: 37,
                 color: Colors.red,
                 decoration: TextDecoration.underline,
                 decorationColor: Colors.yellow,

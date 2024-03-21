@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
             'Red & White',
             style: TextStyle(
               color: Colors.red,
-              fontSize: 40,
+              fontSize: 47,
               fontWeight: FontWeight.w500,
               decoration: TextDecoration.underline,
               decorationStyle: TextDecorationStyle.double,
